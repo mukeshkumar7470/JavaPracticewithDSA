@@ -1,4 +1,4 @@
-package com.mukesh.DSA.searchingAlgorithm;
+package com.mukesh.DSA.Algorithm;
 
 /*
  Let us analyze the time complexity of linear search algorithm.

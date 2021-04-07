@@ -1,4 +1,4 @@
-package com.mukesh.DSA.searchingAlgorithm;
+package com.mukesh.DSA.Algorithm;
 
 public class MergeSortTryout {
     public static void main(String[] args) {
