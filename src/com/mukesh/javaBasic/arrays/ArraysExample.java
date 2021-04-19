@@ -37,6 +37,7 @@ class Restaurants {
     public void setRating(float rating) {
         this.rating = rating;
     }
+
     public void displayRestaurantDetails() {
         System.out.println("Displaying restaurant details \n***************");
         System.out.println("Restaurants Name : "+this.restuarnatName);
