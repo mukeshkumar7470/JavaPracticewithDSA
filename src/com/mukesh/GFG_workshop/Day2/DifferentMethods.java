@@ -11,6 +11,12 @@ public class DifferentMethods {
         int max = maximum(arr);
         System.out.println(max);
 
+        int x = reaptingElement(arr);
+        System.out.println(x);
+
+        int reaptEf = reaptingEf(arr);
+        System.out.println(reaptEf);
+
 
         for (int i = 0; i<arr.length; i++){
             System.out.print(arr[i]+ " ");
@@ -24,6 +30,28 @@ public class DifferentMethods {
         }
 
     }
+
+    private static int reaptingEf(int[] arr) {
+    int n = arr.length;
+    int sumN = ((n-2)*(n-1))/2;
+    int sumA = sum(arr);
+    int ans = sumA - sumN;
+
+    return ans;
+
+    }
+
+    private static int reaptingElement(int[] arr) {
+        for (int i = 0; i<arr.length-1; i++){
+            for (int j = i+1; j<arr.length; j++){
+                if (arr[i] == arr[j]){
+                    return arr[i];
+                }
+            }
+        }
+        return -1;
+    }
+
 
     private static int maximum(int[] arr) {
 
